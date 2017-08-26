@@ -1,0 +1,14 @@
+12:06:06 **** Incremental Build of configuration Debug for project polynominal_eq ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c:9:6: warning: return type of 'main' is not 'int' [-Wmain]
+ void main()
+      ^~~~
+..\main.c: In function 'main':
+..\main.c:18:9: warning: implicit declaration of function 'getche' [-Wimplicit-function-declaration]
+  }while(getche()=='y');
+         ^~~~~~
+gcc -o polynominal_eq.exe main.o 
+
+12:06:07 Build Finished (took 871ms)
+

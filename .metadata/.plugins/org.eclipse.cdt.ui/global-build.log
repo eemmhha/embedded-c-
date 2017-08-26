@@ -1,0 +1,104 @@
+11:49:01 **** Rebuild of configuration Debug for project calc_sum ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c:10:6: warning: return type of 'main' is not 'int' [-Wmain]
+ void main(){
+      ^~~~
+gcc -o calc_sum.exe main.o 
+Info: Nothing to build for calc_sum
+11:50:55 **** Incremental Build of configuration Debug for project calc_sum ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c:10:6: warning: return type of 'main' is not 'int' [-Wmain]
+ void main(){
+      ^~~~
+..\main.c: In function 'main':
+..\main.c:30:4: warning: 'i' may be used uninitialized in this function [-Wmaybe-uninitialized]
+   s+=i;
+   ~^~~
+gcc -o calc_sum.exe main.o 
+11:51:24 **** Incremental Build of configuration Debug for project calc_sum ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c:10:6: warning: return type of 'main' is not 'int' [-Wmain]
+ void main(){
+      ^~~~
+gcc -o calc_sum.exe main.o 
+Info: Nothing to build for calc_sum
+11:52:35 **** Incremental Build of configuration Debug for project calc_sum ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c:10:6: warning: return type of 'main' is not 'int' [-Wmain]
+ void main(){
+      ^~~~
+gcc -o calc_sum.exe main.o 
+f:/embeddedcomp/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file calc_sum.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+11:53:13 **** Incremental Build of configuration Debug for project calc_sum ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c:10:6: warning: return type of 'main' is not 'int' [-Wmain]
+ void main(){
+      ^~~~
+gcc -o calc_sum.exe main.o 
+f:/embeddedcomp/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file calc_sum.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+11:53:47 **** Incremental Build of configuration Debug for project calc_sum ****
+Info: Internal Builder is used for build
+gcc -o calc_sum.exe main.o 
+f:/embeddedcomp/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file calc_sum.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+11:53:51 **** Incremental Build of configuration Debug for project calc_sum ****
+Info: Internal Builder is used for build
+gcc -o calc_sum.exe main.o 
+f:/embeddedcomp/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file calc_sum.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+11:54:49 **** Incremental Build of configuration Debug for project calc_sum ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c:10:6: warning: return type of 'main' is not 'int' [-Wmain]
+ void main(){
+      ^~~~
+gcc -o calc_sum.exe main.o 
+f:/embeddedcomp/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file calc_sum.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+11:55:00 **** Incremental Build of configuration Debug for project calc_sum ****
+Info: Internal Builder is used for build
+gcc -o calc_sum.exe main.o 
+f:/embeddedcomp/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file calc_sum.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+11:55:04 **** Incremental Build of configuration Debug for project calc_sum ****
+Info: Internal Builder is used for build
+gcc -o calc_sum.exe main.o 
+f:/embeddedcomp/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file calc_sum.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+11:56:10 **** Incremental Build of configuration Debug for project calc_sum ****
+Info: Internal Builder is used for build
+gcc -o calc_sum.exe main.o 
+Info: Nothing to build for calc_sum
+12:04:43 **** Rebuild of configuration Debug for project polynominal_eq ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c:9:6: warning: return type of 'main' is not 'int' [-Wmain]
+ void main()
+      ^~~~
+..\main.c: In function 'main':
+..\main.c:18:9: warning: implicit declaration of function 'getche' [-Wimplicit-function-declaration]
+  }while(getche()=='y');
+         ^~~~~~
+..\main.c:11:6: warning: variable 'y' set but not used [-Wunused-but-set-variable]
+  int y,x;
+      ^
+gcc -o polynominal_eq.exe main.o 
+Info: Nothing to build for polynominal_eq
+12:06:06 **** Incremental Build of configuration Debug for project polynominal_eq ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c:9:6: warning: return type of 'main' is not 'int' [-Wmain]
+ void main()
+      ^~~~
+..\main.c: In function 'main':
+..\main.c:18:9: warning: implicit declaration of function 'getche' [-Wimplicit-function-declaration]
+  }while(getche()=='y');
+         ^~~~~~
+gcc -o polynominal_eq.exe main.o 
