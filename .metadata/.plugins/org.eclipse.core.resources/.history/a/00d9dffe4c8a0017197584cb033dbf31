@@ -1,0 +1,17 @@
+/*
+ * main.c
+ *
+ *  Created on: Aug 26, 2017
+ *      Author: eemmh
+ */
+#include "stdio.h"
+#include "math.h"
+void main(){
+	//ex1
+	int x;
+	printf("enter your number");
+	fflush(stdin);fflush(stdout);
+	scanf("%d",&x);
+
+}
+
