@@ -102,3 +102,78 @@ gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c"
   }while(getche()=='y');
          ^~~~~~
 gcc -o polynominal_eq.exe main.o 
+12:18:04 **** Rebuild of configuration Debug for project haram ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c:9:6: warning: return type of 'main' is not 'int' [-Wmain]
+ void main()
+      ^~~~
+..\main.c: In function 'main':
+..\main.c:12:9: warning: right-hand operand of comma expression has no effect [-Wunused-value]
+  for(j=0,j<=9,j++)
+         ^
+..\main.c:12:18: error: expected ';' before ')' token
+  for(j=0,j<=9,j++)
+                  ^
+..\main.c:12:18: error: expected expression before ')' token
+..\main.c:14:10: warning: right-hand operand of comma expression has no effect [-Wunused-value]
+   for(i=9,i>=j,i--)
+          ^
+..\main.c:14:19: error: expected ';' before ')' token
+   for(i=9,i>=j,i--)
+                   ^
+..\main.c:14:19: error: expected expression before ')' token
+12:18:42 **** Incremental Build of configuration Debug for project haram ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c:9:6: warning: return type of 'main' is not 'int' [-Wmain]
+ void main()
+      ^~~~
+gcc -o haram.exe main.o 
+Info: Nothing to build for haram
+12:19:18 **** Incremental Build of configuration Debug for project haram ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c:9:6: warning: return type of 'main' is not 'int' [-Wmain]
+ void main()
+      ^~~~
+gcc -o haram.exe main.o 
+Info: Nothing to build for haram
+12:19:43 **** Incremental Build of configuration Debug for project haram ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c:9:6: warning: return type of 'main' is not 'int' [-Wmain]
+ void main()
+      ^~~~
+gcc -o haram.exe main.o 
+12:20:44 **** Incremental Build of configuration Debug for project haram ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c:9:6: warning: return type of 'main' is not 'int' [-Wmain]
+ void main()
+      ^~~~
+gcc -o haram.exe main.o 
+12:21:18 **** Incremental Build of configuration Debug for project haram ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c:9:6: warning: return type of 'main' is not 'int' [-Wmain]
+ void main()
+      ^~~~
+gcc -o haram.exe main.o 
+12:22:19 **** Incremental Build of configuration Debug for project haram ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c:9:6: warning: return type of 'main' is not 'int' [-Wmain]
+ void main()
+      ^~~~
+gcc -o haram.exe main.o 
+f:/embeddedcomp/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file haram.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+12:22:43 **** Incremental Build of configuration Debug for project haram ****
+Info: Internal Builder is used for build
+gcc -o haram.exe main.o 
+f:/embeddedcomp/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file haram.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+12:23:25 **** Incremental Build of configuration Debug for project haram ****
+Info: Internal Builder is used for build
+gcc -o haram.exe main.o 
