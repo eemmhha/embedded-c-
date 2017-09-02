@@ -1,0 +1,80 @@
+/*
+ * main.c
+ *
+ *  Created on: Aug 26, 2017
+ *      Author: eemmh
+ */
+#include "stdio.h"
+#include "math.h"
+void main(){
+	/*
+	int da[3][3],daa[3][3];
+	int i ,j,temp;
+	for(i=0;i<3;i++)
+	{
+		for(j=0;j<3;j++)
+		{
+			printf("enter the item (%d ,%d)",i,j);
+	//		fflush(stdin);fflush(stdout);
+			scanf("%d",&da[i][j]);
+		}
+	}
+	printf("the metrix :\n");
+	for(i=0;i<3;i++)
+	{
+		for(j=0;j<3;j++)
+		{
+
+			printf("%d  ",da[i][j]);
+
+		}
+		printf("\n");
+	}
+	for(i=0;i<3;i++)
+	{
+		for(j=0;j<3;j++)
+		{
+			//temp=da[i][j];
+			daa[i][j]=da[j][i];
+			//da[j][i]=temp;
+		}
+	}
+	printf("the metrix opsz:\n");
+	for(i=0;i<3;i++)
+	{
+		for(j=0;j<3;j++)
+		{
+
+			printf("%d  ",daa[i][j]);
+
+		}
+		printf("\n");
+	}
+*/
+/*
+int arr[3][3]={1,2,3,4,5,6,7,8,9};
+int i,k;
+for(i=0;i<3;i++)
+	{
+	/*if(i%2)
+	{
+		for(k=2;k<=2;k--)
+		{
+			printf("%d",arr[i][k]);
+		}
+	}*/
+	//else
+	//{
+	/*for(k=0;k<3;k++)
+	{
+	printf("%d",arr[i][k]);
+	}
+	}
+	//}
+*/
+	char arr[7]="Network\0";
+	printf("%s ,%d",arr,strlen(arr));
+}
+
+
+

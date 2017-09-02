@@ -1,0 +1,19 @@
+18:17:04 **** Incremental Build of configuration Debug for project dim_array ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c:9:6: warning: return type of 'main' is not 'int' [-Wmain]
+ void main(){
+      ^~~~
+..\main.c: In function 'main':
+..\main.c:59:2: warning: "/*" within comment [-Wcomment]
+  /*if(i%2)
+   
+..\main.c:80:40: warning: implicit declaration of function 'strlen' [-Wimplicit-function-declaration]
+  printf("%s %d %d\r\n",arr,sizeof(arr),strlen(arr));
+                                        ^~~~~~
+..\main.c:80:40: warning: incompatible implicit declaration of built-in function 'strlen'
+..\main.c:80:40: note: include '<string.h>' or provide a declaration of 'strlen'
+gcc -o dim_array.exe main.o 
+
+18:17:04 Build Finished (took 528ms)
+

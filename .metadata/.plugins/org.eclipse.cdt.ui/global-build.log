@@ -401,3 +401,944 @@ Info: Internal Builder is used for build
 gcc -o hw3.exe main.o 
 Info: Nothing to build for hw3
 Info: Nothing to build for hw3
+15:30:15 **** Rebuild of configuration Debug for project array_time ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c:8:6: warning: return type of 'main' is not 'int' [-Wmain]
+ void main(){
+      ^~~~
+..\main.c: In function 'main':
+..\main.c:17:10: warning: too many arguments for format [-Wformat-extra-args]
+   printf("student %d degree is :",i+1,arr[i]);
+          ^~~~~~~~~~~~~~~~~~~~~~~~
+gcc -o array_time.exe main.o 
+Info: Nothing to build for array_time
+15:30:56 **** Incremental Build of configuration Debug for project array_time ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c:8:6: warning: return type of 'main' is not 'int' [-Wmain]
+ void main(){
+      ^~~~
+..\main.c: In function 'main':
+..\main.c:17:10: warning: too many arguments for format [-Wformat-extra-args]
+   printf("student %d degree is :\n",i+1,arr[i]);
+          ^~~~~~~~~~~~~~~~~~~~~~~~~~
+gcc -o array_time.exe main.o 
+15:31:25 **** Incremental Build of configuration Debug for project array_time ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c:8:6: warning: return type of 'main' is not 'int' [-Wmain]
+ void main(){
+      ^~~~
+gcc -o array_time.exe main.o 
+Info: Nothing to build for array_time
+Info: Nothing to build for array_time
+15:37:19 **** Incremental Build of configuration Debug for project array_time ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c:8:6: warning: return type of 'main' is not 'int' [-Wmain]
+ void main(){
+      ^~~~
+gcc -o array_time.exe main.o 
+15:45:41 **** Incremental Build of configuration Debug for project array_time ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c:8:6: warning: return type of 'main' is not 'int' [-Wmain]
+ void main(){
+      ^~~~
+gcc -o array_time.exe main.o 
+Info: Nothing to build for array_time
+16:04:34 **** Rebuild of configuration Debug for project dim_array ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c:9:6: warning: return type of 'main' is not 'int' [-Wmain]
+ void main(){
+      ^~~~
+..\main.c: In function 'main':
+..\main.c:18:12: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'int' [-Wformat=]
+    scanf("%d",da[i][j]);
+            ^
+gcc -o dim_array.exe main.o 
+Info: Nothing to build for dim_array
+16:05:30 **** Incremental Build of configuration Debug for project dim_array ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c:9:6: warning: return type of 'main' is not 'int' [-Wmain]
+ void main(){
+      ^~~~
+gcc -o dim_array.exe main.o 
+Info: Nothing to build for dim_array
+16:07:39 **** Incremental Build of configuration Debug for project dim_array ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c:9:6: warning: return type of 'main' is not 'int' [-Wmain]
+ void main(){
+      ^~~~
+gcc -o dim_array.exe main.o 
+Info: Nothing to build for dim_array
+16:09:44 **** Incremental Build of configuration Debug for project dim_array ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c:9:6: warning: return type of 'main' is not 'int' [-Wmain]
+ void main(){
+      ^~~~
+..\main.c: In function 'main':
+..\main.c:11:11: warning: unused variable 'temp' [-Wunused-variable]
+  int i ,j,temp;
+           ^~~~
+gcc -o dim_array.exe main.o 
+17:42:39 **** Incremental Build of configuration Debug for project dim_array ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c:9:6: warning: return type of 'main' is not 'int' [-Wmain]
+ void main(){
+      ^~~~
+..\main.c: In function 'main':
+..\main.c:55:15: warning: missing braces around initializer [-Wmissing-braces]
+ int arr[3][3]={1,2,3,4,5,6,7,8,9};
+               ^
+..\main.c:55:15: note: (near initialization for 'arr')
+..\main.c:63:4: warning: implicit declaration of function 'Printf' [-Wimplicit-function-declaration]
+    Printf("%d",arr[i][k]);
+    ^~~~~~
+gcc -o dim_array.exe main.o 
+main.o: In function `main':
+F:\emmbeddedeclips\try\embedded-c-\dim_array\Debug/../main.c:63: undefined reference to `Printf'
+F:\emmbeddedeclips\try\embedded-c-\dim_array\Debug/../main.c:70: undefined reference to `Printf'
+collect2.exe: error: ld returned 1 exit status
+17:43:06 **** Incremental Build of configuration Debug for project dim_array ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c:9:6: warning: return type of 'main' is not 'int' [-Wmain]
+ void main(){
+      ^~~~
+..\main.c: In function 'main':
+..\main.c:55:15: warning: missing braces around initializer [-Wmissing-braces]
+ int arr[3][3]={1,2,3,4,5,6,7,8,9};
+               ^
+..\main.c:55:15: note: (near initialization for 'arr')
+gcc -o dim_array.exe main.o 
+Info: Nothing to build for dim_array
+17:44:25 **** Incremental Build of configuration Debug for project dim_array ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c:9:6: warning: return type of 'main' is not 'int' [-Wmain]
+ void main(){
+      ^~~~
+..\main.c: In function 'main':
+..\main.c:55:15: warning: missing braces around initializer [-Wmissing-braces]
+ int arr[3][3]={1,2,3,4,5,6,7,8,9};
+               ^
+..\main.c:55:15: note: (near initialization for 'arr')
+gcc -o dim_array.exe main.o 
+17:56:27 **** Incremental Build of configuration Debug for project dim_array ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c:9:6: warning: return type of 'main' is not 'int' [-Wmain]
+ void main(){
+      ^~~~
+..\main.c: In function 'main':
+..\main.c:59:2: warning: "/*" within comment [-Wcomment]
+  /*if(i%2)
+   
+gcc -o dim_array.exe main.o 
+17:56:55 **** Incremental Build of configuration Debug for project dim_array ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c:9:6: warning: return type of 'main' is not 'int' [-Wmain]
+ void main(){
+      ^~~~
+..\main.c: In function 'main':
+..\main.c:59:2: warning: "/*" within comment [-Wcomment]
+  /*if(i%2)
+   
+..\main.c:75:14: warning: initializer-string for array of chars is too long
+  char arr[6]="Network";
+              ^~~~~~~~~
+gcc -o dim_array.exe main.o 
+17:57:18 **** Incremental Build of configuration Debug for project dim_array ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c:9:6: warning: return type of 'main' is not 'int' [-Wmain]
+ void main(){
+      ^~~~
+..\main.c: In function 'main':
+..\main.c:59:2: warning: "/*" within comment [-Wcomment]
+  /*if(i%2)
+   
+gcc -o dim_array.exe main.o 
+17:58:00 **** Incremental Build of configuration Debug for project dim_array ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c:9:6: warning: return type of 'main' is not 'int' [-Wmain]
+ void main(){
+      ^~~~
+..\main.c: In function 'main':
+..\main.c:59:2: warning: "/*" within comment [-Wcomment]
+  /*if(i%2)
+   
+..\main.c:76:22: warning: implicit declaration of function 'strylen' [-Wimplicit-function-declaration]
+  printf("%s ,%d",arr,strylen(arr));
+                      ^~~~~~~
+gcc -o dim_array.exe main.o 
+main.o: In function `main':
+F:\emmbeddedeclips\try\embedded-c-\dim_array\Debug/../main.c:76: undefined reference to `strylen'
+collect2.exe: error: ld returned 1 exit status
+17:58:24 **** Incremental Build of configuration Debug for project dim_array ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c:9:6: warning: return type of 'main' is not 'int' [-Wmain]
+ void main(){
+      ^~~~
+..\main.c: In function 'main':
+..\main.c:59:2: warning: "/*" within comment [-Wcomment]
+  /*if(i%2)
+   
+..\main.c:76:22: warning: implicit declaration of function 'strlen' [-Wimplicit-function-declaration]
+  printf("%s ,%d",arr,strlen(arr));
+                      ^~~~~~
+..\main.c:76:22: warning: incompatible implicit declaration of built-in function 'strlen'
+..\main.c:76:22: note: include '<string.h>' or provide a declaration of 'strlen'
+gcc -o dim_array.exe main.o 
+18:00:20 **** Incremental Build of configuration Debug for project dim_array ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c:9:6: warning: return type of 'main' is not 'int' [-Wmain]
+ void main(){
+      ^~~~
+..\main.c: In function 'main':
+..\main.c:59:2: warning: "/*" within comment [-Wcomment]
+  /*if(i%2)
+   
+..\main.c:75:14: warning: initializer-string for array of chars is too long
+  char arr[7]="Network\0";
+              ^~~~~~~~~~~
+..\main.c:76:22: warning: implicit declaration of function 'strlen' [-Wimplicit-function-declaration]
+  printf("%s ,%d",arr,strlen(arr));
+                      ^~~~~~
+..\main.c:76:22: warning: incompatible implicit declaration of built-in function 'strlen'
+..\main.c:76:22: note: include '<string.h>' or provide a declaration of 'strlen'
+gcc -o dim_array.exe main.o 
+Info: Nothing to build for dim_array
+Info: Nothing to build for dim_array
+18:02:49 **** Incremental Build of configuration Debug for project dim_array ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c:9:6: warning: return type of 'main' is not 'int' [-Wmain]
+ void main(){
+      ^~~~
+..\main.c: In function 'main':
+..\main.c:59:2: warning: "/*" within comment [-Wcomment]
+  /*if(i%2)
+   
+..\main.c:76:22: warning: implicit declaration of function 'strlen' [-Wimplicit-function-declaration]
+  printf("%s ,%d",arr,strlen(arr));
+                      ^~~~~~
+..\main.c:76:22: warning: incompatible implicit declaration of built-in function 'strlen'
+..\main.c:76:22: note: include '<string.h>' or provide a declaration of 'strlen'
+gcc -o dim_array.exe main.o 
+Info: Nothing to build for dim_array
+Info: Nothing to build for dim_array
+18:03:42 **** Incremental Build of configuration Debug for project dim_array ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c:9:6: warning: return type of 'main' is not 'int' [-Wmain]
+ void main(){
+      ^~~~
+..\main.c: In function 'main':
+..\main.c:59:2: warning: "/*" within comment [-Wcomment]
+  /*if(i%2)
+   
+..\main.c:75:14: warning: initializer-string for array of chars is too long
+  char arr[5]="Network";
+              ^~~~~~~~~
+..\main.c:76:22: warning: implicit declaration of function 'strlen' [-Wimplicit-function-declaration]
+  printf("%s ,%d",arr,strlen(arr));
+                      ^~~~~~
+..\main.c:76:22: warning: incompatible implicit declaration of built-in function 'strlen'
+..\main.c:76:22: note: include '<string.h>' or provide a declaration of 'strlen'
+gcc -o dim_array.exe main.o 
+18:04:10 **** Incremental Build of configuration Debug for project dim_array ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c:9:6: warning: return type of 'main' is not 'int' [-Wmain]
+ void main(){
+      ^~~~
+..\main.c: In function 'main':
+..\main.c:59:2: warning: "/*" within comment [-Wcomment]
+  /*if(i%2)
+   
+..\main.c:76:22: error: expected expression before ']' token
+  printf("%s ,%d",arr[],strlen(arr));
+                      ^
+..\main.c:76:24: warning: implicit declaration of function 'strlen' [-Wimplicit-function-declaration]
+  printf("%s ,%d",arr[],strlen(arr));
+                        ^~~~~~
+..\main.c:76:24: warning: incompatible implicit declaration of built-in function 'strlen'
+..\main.c:76:24: note: include '<string.h>' or provide a declaration of 'strlen'
+18:05:25 **** Incremental Build of configuration Debug for project dim_array ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c:9:6: warning: return type of 'main' is not 'int' [-Wmain]
+ void main(){
+      ^~~~
+..\main.c: In function 'main':
+..\main.c:59:2: warning: "/*" within comment [-Wcomment]
+  /*if(i%2)
+   
+..\main.c:75:14: error: invalid initializer
+  char arr[7]="Network"+'\0';
+              ^~~~~~~~~
+..\main.c:76:22: warning: implicit declaration of function 'strlen' [-Wimplicit-function-declaration]
+  printf("%s ,%d",arr,strlen(arr));
+                      ^~~~~~
+..\main.c:76:22: warning: incompatible implicit declaration of built-in function 'strlen'
+..\main.c:76:22: note: include '<string.h>' or provide a declaration of 'strlen'
+18:05:48 **** Incremental Build of configuration Debug for project dim_array ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c:9:6: warning: return type of 'main' is not 'int' [-Wmain]
+ void main(){
+      ^~~~
+..\main.c: In function 'main':
+..\main.c:59:2: warning: "/*" within comment [-Wcomment]
+  /*if(i%2)
+   
+..\main.c:75:14: error: invalid initializer
+  char arr[8]="Network"+'\0';
+              ^~~~~~~~~
+..\main.c:76:22: warning: implicit declaration of function 'strlen' [-Wimplicit-function-declaration]
+  printf("%s ,%d",arr,strlen(arr));
+                      ^~~~~~
+..\main.c:76:22: warning: incompatible implicit declaration of built-in function 'strlen'
+..\main.c:76:22: note: include '<string.h>' or provide a declaration of 'strlen'
+18:06:10 **** Incremental Build of configuration Debug for project dim_array ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c:9:6: warning: return type of 'main' is not 'int' [-Wmain]
+ void main(){
+      ^~~~
+..\main.c: In function 'main':
+..\main.c:59:2: warning: "/*" within comment [-Wcomment]
+  /*if(i%2)
+   
+..\main.c:75:23: error: invalid operands to binary + (have 'char *' and 'char *')
+  char arr[8]="Network"+"\0";
+              ~~~~~~~~~^
+..\main.c:76:22: warning: implicit declaration of function 'strlen' [-Wimplicit-function-declaration]
+  printf("%s ,%d",arr,strlen(arr));
+                      ^~~~~~
+..\main.c:76:22: warning: incompatible implicit declaration of built-in function 'strlen'
+..\main.c:76:22: note: include '<string.h>' or provide a declaration of 'strlen'
+18:06:40 **** Incremental Build of configuration Debug for project dim_array ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c:9:6: warning: return type of 'main' is not 'int' [-Wmain]
+ void main(){
+      ^~~~
+..\main.c: In function 'main':
+..\main.c:59:2: warning: "/*" within comment [-Wcomment]
+  /*if(i%2)
+   
+..\main.c:76:22: warning: implicit declaration of function 'strlen' [-Wimplicit-function-declaration]
+  printf("%s ,%d",arr,strlen(arr));
+                      ^~~~~~
+..\main.c:76:22: warning: incompatible implicit declaration of built-in function 'strlen'
+..\main.c:76:22: note: include '<string.h>' or provide a declaration of 'strlen'
+gcc -o dim_array.exe main.o 
+18:08:18 **** Incremental Build of configuration Debug for project dim_array ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c:9:6: warning: return type of 'main' is not 'int' [-Wmain]
+ void main(){
+      ^~~~
+..\main.c: In function 'main':
+..\main.c:59:2: warning: "/*" within comment [-Wcomment]
+  /*if(i%2)
+   
+..\main.c:77:22: warning: implicit declaration of function 'strlen' [-Wimplicit-function-declaration]
+  printf("%s ,%d",arr,strlen(arr));
+                      ^~~~~~
+..\main.c:77:22: warning: incompatible implicit declaration of built-in function 'strlen'
+..\main.c:77:22: note: include '<string.h>' or provide a declaration of 'strlen'
+gcc -o dim_array.exe main.o 
+18:09:03 **** Incremental Build of configuration Debug for project dim_array ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c:9:6: warning: return type of 'main' is not 'int' [-Wmain]
+ void main(){
+      ^~~~
+..\main.c: In function 'main':
+..\main.c:59:2: warning: "/*" within comment [-Wcomment]
+  /*if(i%2)
+   
+..\main.c:77:22: warning: implicit declaration of function 'strlen' [-Wimplicit-function-declaration]
+  printf("%s ,%d",arr,strlen(arr));
+                      ^~~~~~
+..\main.c:77:22: warning: incompatible implicit declaration of built-in function 'strlen'
+..\main.c:77:22: note: include '<string.h>' or provide a declaration of 'strlen'
+gcc -o dim_array.exe main.o 
+18:09:14 **** Incremental Build of configuration Debug for project dim_array ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c:9:6: warning: return type of 'main' is not 'int' [-Wmain]
+ void main(){
+      ^~~~
+..\main.c: In function 'main':
+..\main.c:59:2: warning: "/*" within comment [-Wcomment]
+  /*if(i%2)
+   
+..\main.c:77:22: warning: implicit declaration of function 'strlen' [-Wimplicit-function-declaration]
+  printf("%s ,%d",arr,strlen(arr));
+                      ^~~~~~
+..\main.c:77:22: warning: incompatible implicit declaration of built-in function 'strlen'
+..\main.c:77:22: note: include '<string.h>' or provide a declaration of 'strlen'
+gcc -o dim_array.exe main.o 
+18:09:30 **** Incremental Build of configuration Debug for project dim_array ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c:9:6: warning: return type of 'main' is not 'int' [-Wmain]
+ void main(){
+      ^~~~
+..\main.c: In function 'main':
+..\main.c:59:2: warning: "/*" within comment [-Wcomment]
+  /*if(i%2)
+   
+..\main.c:75:14: error: invalid initializer
+  char arr[8]="Network"+0;
+              ^~~~~~~~~
+..\main.c:77:22: warning: implicit declaration of function 'strlen' [-Wimplicit-function-declaration]
+  printf("%s ,%d",arr,strlen(arr));
+                      ^~~~~~
+..\main.c:77:22: warning: incompatible implicit declaration of built-in function 'strlen'
+..\main.c:77:22: note: include '<string.h>' or provide a declaration of 'strlen'
+18:09:42 **** Incremental Build of configuration Debug for project dim_array ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c:9:6: warning: return type of 'main' is not 'int' [-Wmain]
+ void main(){
+      ^~~~
+..\main.c: In function 'main':
+..\main.c:59:2: warning: "/*" within comment [-Wcomment]
+  /*if(i%2)
+   
+..\main.c:77:22: warning: implicit declaration of function 'strlen' [-Wimplicit-function-declaration]
+  printf("%s ,%d",arr,strlen(arr));
+                      ^~~~~~
+..\main.c:77:22: warning: incompatible implicit declaration of built-in function 'strlen'
+..\main.c:77:22: note: include '<string.h>' or provide a declaration of 'strlen'
+gcc -o dim_array.exe main.o 
+18:10:06 **** Incremental Build of configuration Debug for project dim_array ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c:9:6: warning: return type of 'main' is not 'int' [-Wmain]
+ void main(){
+      ^~~~
+..\main.c: In function 'main':
+..\main.c:59:2: warning: "/*" within comment [-Wcomment]
+  /*if(i%2)
+   
+..\main.c:77:22: warning: implicit declaration of function 'strlen' [-Wimplicit-function-declaration]
+  printf("%s ,%d",arr,strlen(arr));
+                      ^~~~~~
+..\main.c:77:22: warning: incompatible implicit declaration of built-in function 'strlen'
+..\main.c:77:22: note: include '<string.h>' or provide a declaration of 'strlen'
+gcc -o dim_array.exe main.o 
+18:10:17 **** Incremental Build of configuration Debug for project dim_array ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c:9:6: warning: return type of 'main' is not 'int' [-Wmain]
+ void main(){
+      ^~~~
+..\main.c: In function 'main':
+..\main.c:59:2: warning: "/*" within comment [-Wcomment]
+  /*if(i%2)
+   
+..\main.c:77:22: warning: implicit declaration of function 'strlen' [-Wimplicit-function-declaration]
+  printf("%s ,%d",arr,strlen(arr));
+                      ^~~~~~
+..\main.c:77:22: warning: incompatible implicit declaration of built-in function 'strlen'
+..\main.c:77:22: note: include '<string.h>' or provide a declaration of 'strlen'
+gcc -o dim_array.exe main.o 
+18:12:23 **** Incremental Build of configuration Debug for project dim_array ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c:9:6: warning: return type of 'main' is not 'int' [-Wmain]
+ void main(){
+      ^~~~
+..\main.c: In function 'main':
+..\main.c:59:2: warning: "/*" within comment [-Wcomment]
+  /*if(i%2)
+   
+..\main.c:75:14: warning: initializer-string for array of chars is too long
+  char arr[3]="Network";
+              ^~~~~~~~~
+..\main.c:77:22: warning: implicit declaration of function 'strlen' [-Wimplicit-function-declaration]
+  printf("%s ,%d",arr,strlen(arr));
+                      ^~~~~~
+..\main.c:77:22: warning: incompatible implicit declaration of built-in function 'strlen'
+..\main.c:77:22: note: include '<string.h>' or provide a declaration of 'strlen'
+gcc -o dim_array.exe main.o 
+18:13:08 **** Incremental Build of configuration Debug for project dim_array ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c:9:6: warning: return type of 'main' is not 'int' [-Wmain]
+ void main(){
+      ^~~~
+..\main.c: In function 'main':
+..\main.c:59:2: warning: "/*" within comment [-Wcomment]
+  /*if(i%2)
+   
+..\main.c:79:15: warning: initializer-string for array of chars is too long
+  char arr[11]="The African Queen";
+               ^~~~~~~~~~~~~~~~~~~
+..\main.c:81:1: error: expected ';' before '}' token
+ }
+ ^
+18:13:15 **** Incremental Build of configuration Debug for project dim_array ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c:9:6: warning: return type of 'main' is not 'int' [-Wmain]
+ void main(){
+      ^~~~
+..\main.c: In function 'main':
+..\main.c:59:2: warning: "/*" within comment [-Wcomment]
+  /*if(i%2)
+   
+..\main.c:79:15: warning: initializer-string for array of chars is too long
+  char arr[11]="The African Queen";
+               ^~~~~~~~~~~~~~~~~~~
+gcc -o dim_array.exe main.o 
+18:15:20 **** Incremental Build of configuration Debug for project dim_array ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c:9:6: warning: return type of 'main' is not 'int' [-Wmain]
+ void main(){
+      ^~~~
+..\main.c: In function 'main':
+..\main.c:59:2: warning: "/*" within comment [-Wcomment]
+  /*if(i%2)
+   
+..\main.c:80:36: warning: implicit declaration of function 'strlen' [-Wimplicit-function-declaration]
+  printf("%s %d %d",arr,sizeof(arr),strlen(arr));
+                                    ^~~~~~
+..\main.c:80:36: warning: incompatible implicit declaration of built-in function 'strlen'
+..\main.c:80:36: note: include '<string.h>' or provide a declaration of 'strlen'
+gcc -o dim_array.exe main.o 
+18:16:45 **** Incremental Build of configuration Debug for project dim_array ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c:9:6: warning: return type of 'main' is not 'int' [-Wmain]
+ void main(){
+      ^~~~
+..\main.c: In function 'main':
+..\main.c:59:2: warning: "/*" within comment [-Wcomment]
+  /*if(i%2)
+   
+..\main.c:80:36: warning: implicit declaration of function 'strlen' [-Wimplicit-function-declaration]
+  printf("%s %d %d",arr,sizeof(arr),strlen(arr));
+                                    ^~~~~~
+..\main.c:80:36: warning: incompatible implicit declaration of built-in function 'strlen'
+..\main.c:80:36: note: include '<string.h>' or provide a declaration of 'strlen'
+gcc -o dim_array.exe main.o 
+18:17:04 **** Incremental Build of configuration Debug for project dim_array ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c:9:6: warning: return type of 'main' is not 'int' [-Wmain]
+ void main(){
+      ^~~~
+..\main.c: In function 'main':
+..\main.c:59:2: warning: "/*" within comment [-Wcomment]
+  /*if(i%2)
+   
+..\main.c:80:40: warning: implicit declaration of function 'strlen' [-Wimplicit-function-declaration]
+  printf("%s %d %d\r\n",arr,sizeof(arr),strlen(arr));
+                                        ^~~~~~
+..\main.c:80:40: warning: incompatible implicit declaration of built-in function 'strlen'
+..\main.c:80:40: note: include '<string.h>' or provide a declaration of 'strlen'
+gcc -o dim_array.exe main.o 
+11:32:57 **** Rebuild of configuration Debug for project get_factorial ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c:20:6: warning: return type of 'main' is not 'int' [-Wmain]
+ void main()
+      ^~~~
+gcc -o get_factorial.exe main.o 
+Info: Nothing to build for get_factorial
+Info: Nothing to build for get_factorial
+Info: Nothing to build for get_factorial
+Info: Nothing to build for get_factorial
+11:35:10 **** Incremental Build of configuration Debug for project get_factorial ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c:20:6: warning: return type of 'main' is not 'int' [-Wmain]
+ void main()
+      ^~~~
+gcc -o get_factorial.exe main.o 
+Info: Nothing to build for get_factorial
+11:53:09 **** Rebuild of configuration Debug for project min_aray ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c:10:21: error: unknown type name 'n'
+ int calcmin(int a[],n);
+                     ^
+..\main.c:12:6: warning: return type of 'main' is not 'int' [-Wmain]
+ void main()
+      ^~~~
+..\main.c: In function 'main':
+..\main.c:16:2: warning: implicit declaration of function 'calcmin' [-Wimplicit-function-declaration]
+  calcmin(arr,s);
+  ^~~~~~~
+..\main.c: At top level:
+..\main.c:19:21: error: unknown type name 'n'
+ int calcmin(int a[],n)
+                     ^
+11:53:31 **** Incremental Build of configuration Debug for project min_aray ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c:12:6: warning: return type of 'main' is not 'int' [-Wmain]
+ void main()
+      ^~~~
+gcc -o min_aray.exe main.o 
+Info: Nothing to build for min_aray
+11:54:37 **** Incremental Build of configuration Debug for project min_aray ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c:12:6: warning: return type of 'main' is not 'int' [-Wmain]
+ void main()
+      ^~~~
+gcc -o min_aray.exe main.o 
+11:55:43 **** Incremental Build of configuration Debug for project min_aray ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c:12:6: warning: return type of 'main' is not 'int' [-Wmain]
+ void main()
+      ^~~~
+gcc -o min_aray.exe main.o 
+Info: Nothing to build for min_aray
+12:01:12 **** Incremental Build of configuration Debug for project min_aray ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c:12:6: warning: return type of 'main' is not 'int' [-Wmain]
+ void main()
+      ^~~~
+..\main.c: In function 'main':
+..\main.c:16:8: warning: implicit declaration of function 'length' [-Wimplicit-function-declaration]
+  int s=length(arr);
+        ^~~~~~
+gcc -o min_aray.exe main.o 
+main.o: In function `main':
+F:\emmbeddedeclips\try\embedded-c-\min_aray\Debug/../main.c:16: undefined reference to `length'
+collect2.exe: error: ld returned 1 exit status
+12:01:20 **** Incremental Build of configuration Debug for project min_aray ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c:12:6: warning: return type of 'main' is not 'int' [-Wmain]
+ void main()
+      ^~~~
+..\main.c: In function 'main':
+..\main.c:16:8: warning: implicit declaration of function 'lengthof' [-Wimplicit-function-declaration]
+  int s=lengthof(arr);
+        ^~~~~~~~
+gcc -o min_aray.exe main.o 
+main.o: In function `main':
+F:\emmbeddedeclips\try\embedded-c-\min_aray\Debug/../main.c:16: undefined reference to `lengthof'
+collect2.exe: error: ld returned 1 exit status
+12:03:03 **** Incremental Build of configuration Debug for project min_aray ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c:12:6: warning: return type of 'main' is not 'int' [-Wmain]
+ void main()
+      ^~~~
+gcc -o min_aray.exe main.o 
+15:14:51 **** Rebuild of configuration Debug for project find_name ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c:10:19: error: array type has incomplete element type 'char[]'
+ int findName(char name[][],int x,char name[])
+                   ^~~~
+..\main.c:10:19: note: declaration of 'name' as multidimensional array must have bounds for all dimensions except the first
+..\main.c: In function 'findName':
+..\main.c:15:13: warning: comparison between pointer and integer
+   if(name[i]==name) return 1;
+             ^~
+..\main.c: At top level:
+..\main.c:19:6: warning: return type of 'main' is not 'int' [-Wmain]
+ void main()
+      ^~~~
+..\main.c: In function 'main':
+..\main.c:26:13: error: type of formal parameter 1 is incomplete
+ if(findName(names, 5, name)==1)
+             ^~~~~
+15:19:52 **** Incremental Build of configuration Debug for project find_name ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c:10:41: error: conflicting types for 'name'
+ int findName(char name[][14],int x,char name[])
+                                         ^~~~
+..\main.c:10:19: note: previous definition of 'name' was here
+ int findName(char name[][14],int x,char name[])
+                   ^~~~
+..\main.c: In function 'findName':
+..\main.c:15:13: warning: comparison between pointer and integer
+   if(name[i]==name) return 1;
+             ^~
+..\main.c: At top level:
+..\main.c:19:6: warning: return type of 'main' is not 'int' [-Wmain]
+ void main()
+      ^~~~
+15:20:14 **** Incremental Build of configuration Debug for project find_name ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c:10:41: error: conflicting types for 'name'
+ int findName(char name[][14],int x,char name[14])
+                                         ^~~~
+..\main.c:10:19: note: previous definition of 'name' was here
+ int findName(char name[][14],int x,char name[14])
+                   ^~~~
+..\main.c: In function 'findName':
+..\main.c:15:13: warning: comparison between pointer and integer
+   if(name[i]==name) return 1;
+             ^~
+..\main.c: At top level:
+..\main.c:19:6: warning: return type of 'main' is not 'int' [-Wmain]
+ void main()
+      ^~~~
+15:20:43 **** Incremental Build of configuration Debug for project find_name ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c:10:19: error: array type has incomplete element type 'char[]'
+ int findName(char names[][],int x,char name[])
+                   ^~~~~
+..\main.c:10:19: note: declaration of 'names' as multidimensional array must have bounds for all dimensions except the first
+..\main.c:19:6: warning: return type of 'main' is not 'int' [-Wmain]
+ void main()
+      ^~~~
+..\main.c: In function 'main':
+..\main.c:26:13: error: type of formal parameter 1 is incomplete
+ if(findName(names, 5, name)== 1)
+             ^~~~~
+15:20:56 **** Incremental Build of configuration Debug for project find_name ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c:19:6: warning: return type of 'main' is not 'int' [-Wmain]
+ void main()
+      ^~~~
+gcc -o find_name.exe main.o 
+Info: Nothing to build for find_name
+Info: Nothing to build for find_name
+Info: Nothing to build for find_name
+Info: Nothing to build for find_name
+15:25:37 **** Incremental Build of configuration Debug for project find_name ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c: In function 'findName':
+..\main.c:15:15: error: expected expression before ']' token
+   if(names[i][]==name[]) return 1;
+               ^
+..\main.c: At top level:
+..\main.c:19:6: warning: return type of 'main' is not 'int' [-Wmain]
+ void main()
+      ^~~~
+15:27:28 **** Incremental Build of configuration Debug for project find_name ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c:20:6: warning: return type of 'main' is not 'int' [-Wmain]
+ void main()
+      ^~~~
+gcc -o find_name.exe main.o 
+f:/embeddedcomp/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file find_name.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+15:28:00 **** Incremental Build of configuration Debug for project find_name ****
+Info: Internal Builder is used for build
+gcc -o find_name.exe main.o 
+f:/embeddedcomp/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file find_name.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+15:30:38 **** Incremental Build of configuration Debug for project find_name ****
+Info: Internal Builder is used for build
+gcc -o find_name.exe main.o 
+Info: Nothing to build for find_name
+Info: Nothing to build for find_name
+Info: Nothing to build for find_name
+15:32:13 **** Incremental Build of configuration Debug for project find_name ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c:10:19: error: array type has incomplete element type 'char[]'
+ int findName(char names[][],int x,char name[])
+                   ^~~~~
+..\main.c:10:19: note: declaration of 'names' as multidimensional array must have bounds for all dimensions except the first
+..\main.c:20:6: warning: return type of 'main' is not 'int' [-Wmain]
+ void main()
+      ^~~~
+..\main.c: In function 'main':
+..\main.c:27:13: error: type of formal parameter 1 is incomplete
+ if(findName(names, 5, name)== 1)
+             ^~~~~
+15:32:38 **** Incremental Build of configuration Debug for project find_name ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c: In function 'findName':
+..\main.c:16:14: warning: passing argument 1 of 'stricmp' makes pointer from integer without a cast [-Wint-conversion]
+   if(stricmp(names[i],name)==0) return 1;
+              ^~~~~
+In file included from ..\main.c:8:0:
+f:\embeddedcomp\include\string.h:138:38: note: expected 'const char *' but argument is of type 'char'
+ _CRTIMP __cdecl __MINGW_NOTHROW  int stricmp (const char *, const char *);
+                                      ^~~~~~~
+..\main.c: At top level:
+..\main.c:20:6: warning: return type of 'main' is not 'int' [-Wmain]
+ void main()
+      ^~~~
+..\main.c: In function 'main':
+..\main.c:27:13: warning: passing argument 1 of 'findName' from incompatible pointer type [-Wincompatible-pointer-types]
+ if(findName(names, 5, name)== 1)
+             ^~~~~
+..\main.c:10:5: note: expected 'char *' but argument is of type 'char (*)[14]'
+ int findName(char names[],int x,char name[])
+     ^~~~~~~~
+gcc -o find_name.exe main.o 
+f:/embeddedcomp/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file find_name.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+15:32:52 **** Incremental Build of configuration Debug for project find_name ****
+Info: Internal Builder is used for build
+gcc -o find_name.exe main.o 
+f:/embeddedcomp/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file find_name.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+15:32:54 **** Incremental Build of configuration Debug for project find_name ****
+Info: Internal Builder is used for build
+gcc -o find_name.exe main.o 
+f:/embeddedcomp/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file find_name.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+15:33:18 **** Incremental Build of configuration Debug for project find_name ****
+Info: Internal Builder is used for build
+gcc -o find_name.exe main.o 
+Info: Nothing to build for find_name
+15:34:41 **** Incremental Build of configuration Debug for project find_name ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c: In function 'findName':
+..\main.c:16:14: warning: passing argument 1 of 'stricmp' makes pointer from integer without a cast [-Wint-conversion]
+   if(stricmp(names[i],name)==0) return 1;
+              ^~~~~
+In file included from ..\main.c:8:0:
+f:\embeddedcomp\include\string.h:138:38: note: expected 'const char *' but argument is of type 'char'
+ _CRTIMP __cdecl __MINGW_NOTHROW  int stricmp (const char *, const char *);
+                                      ^~~~~~~
+..\main.c: At top level:
+..\main.c:20:6: warning: return type of 'main' is not 'int' [-Wmain]
+ void main()
+      ^~~~
+..\main.c: In function 'main':
+..\main.c:27:19: error: expected expression before ']' token
+ if(findName(names[], 5, name)== 1)
+                   ^
+..\main.c:23:6: warning: variable 'names' set but not used [-Wunused-but-set-variable]
+ char names[5][14] = {"Alaa", "Osama", "Mamdouh",
+      ^~~~~
+15:34:55 **** Incremental Build of configuration Debug for project find_name ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c: In function 'findName':
+..\main.c:16:14: warning: passing argument 1 of 'stricmp' makes pointer from integer without a cast [-Wint-conversion]
+   if(stricmp(names[i],name)==0) return 1;
+              ^~~~~
+In file included from ..\main.c:8:0:
+f:\embeddedcomp\include\string.h:138:38: note: expected 'const char *' but argument is of type 'char'
+ _CRTIMP __cdecl __MINGW_NOTHROW  int stricmp (const char *, const char *);
+                                      ^~~~~~~
+..\main.c: At top level:
+..\main.c:20:6: warning: return type of 'main' is not 'int' [-Wmain]
+ void main()
+      ^~~~
+gcc -o find_name.exe main.o 
+f:/embeddedcomp/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file find_name.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+15:35:10 **** Incremental Build of configuration Debug for project find_name ****
+Info: Internal Builder is used for build
+gcc -o find_name.exe main.o 
+f:/embeddedcomp/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file find_name.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+15:35:12 **** Incremental Build of configuration Debug for project find_name ****
+Info: Internal Builder is used for build
+gcc -o find_name.exe main.o 
+f:/embeddedcomp/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file find_name.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+15:35:23 **** Incremental Build of configuration Debug for project find_name ****
+Info: Internal Builder is used for build
+gcc -o find_name.exe main.o 
+f:/embeddedcomp/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file find_name.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+15:36:14 **** Incremental Build of configuration Debug for project find_name ****
+Info: Internal Builder is used for build
+gcc -o find_name.exe main.o 
+Info: Nothing to build for find_name
+15:36:47 **** Incremental Build of configuration Debug for project find_name ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c:20:6: warning: return type of 'main' is not 'int' [-Wmain]
+ void main()
+      ^~~~
+..\main.c: In function 'main':
+..\main.c:27:19: error: expected expression before ']' token
+ if(findName(names[], 5, name)== 1)
+                   ^
+..\main.c:23:6: warning: variable 'names' set but not used [-Wunused-but-set-variable]
+ char names[5][14] = {"Alaa", "Osama", "Mamdouh",
+      ^~~~~
+15:36:55 **** Incremental Build of configuration Debug for project find_name ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c:20:6: warning: return type of 'main' is not 'int' [-Wmain]
+ void main()
+      ^~~~
+gcc -o find_name.exe main.o 
+f:/embeddedcomp/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file find_name.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+15:40:02 **** Incremental Build of configuration Debug for project find_name ****
+Info: Internal Builder is used for build
+gcc -o find_name.exe main.o 
+Info: Nothing to build for find_name
+19:30:24 **** Incremental Build of configuration Debug for project find_name ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c:37:6: warning: return type of 'main' is not 'int' [-Wmain]
+ void main()
+      ^~~~
+gcc -o find_name.exe main.o 
+Info: Nothing to build for find_name
+Info: Nothing to build for find_name
+19:33:58 **** Incremental Build of configuration Debug for project find_name ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c:37:6: warning: return type of 'main' is not 'int' [-Wmain]
+ void main()
+      ^~~~
+..\main.c: In function 'reverse':
+..\main.c:45:9: warning: character constant too long for its type
+  char c='maha mohamed';
+         ^~~~~~~~~~~~~~
+..\main.c:45:9: warning: overflow in implicit constant conversion [-Woverflow]
+gcc -o find_name.exe main.o 
+Info: Nothing to build for find_name
+19:38:42 **** Incremental Build of configuration Debug for project find_name ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c:37:6: warning: return type of 'main' is not 'int' [-Wmain]
+ void main()
+      ^~~~
+gcc -o find_name.exe main.o 
+Info: Nothing to build for find_name
+19:55:09 **** Incremental Build of configuration Debug for project find_name ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c: In function 'main':
+..\main.c:59:3: error: void value not ignored as it ought to be
+ a = f();
+   ^
+19:55:09 **** Incremental Build of configuration Debug for project find_name ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c: In function 'main':
+..\main.c:59:3: error: void value not ignored as it ought to be
+ a = f();
+   ^

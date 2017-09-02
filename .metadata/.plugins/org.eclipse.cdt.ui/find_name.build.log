@@ -1,0 +1,10 @@
+19:55:09 **** Incremental Build of configuration Debug for project find_name ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c: In function 'main':
+..\main.c:59:3: error: void value not ignored as it ought to be
+ a = f();
+   ^
+
+19:55:09 Build Finished (took 223ms)
+

@@ -1,0 +1,54 @@
+/*
+ * main.c
+ *
+ *  Created on: Aug 26, 2017
+ *      Author: eemmh
+ */
+#include "stdio.h"
+#include "math.h"
+void main(){
+	int da[3][3];
+	int i ,j,temp;
+	for(i=0;i<3;i++)
+	{
+		for(j=0;j<3;j++)
+		{
+			printf("enter the item (%d ,%d)",i,j);
+			fflush(stdin);fflush(stdout);
+			scanf("%d",da[i][j]);
+		}
+	}
+	printf("the metrix :");
+	for(i=0;i<3;i++)
+	{
+		for(j=0;j<3;j++)
+		{
+
+			printf("%d",da[i][j]);
+
+		}
+		printf("\n");
+	}
+	for(i=0;i<3;i++)
+	{
+		for(j=0;j<3;j++)
+		{
+			temp=da[i][j];
+			da[i][j]=da[j][i];
+			da[j][i]=temp;
+		}
+	}
+	printf("the metrix opsz:");
+	for(i=0;i<3;i++)
+	{
+		for(j=0;j<3;j++)
+		{
+
+			printf("%d",da[i][j]);
+
+		}
+		printf("\n");
+	}
+
+}
+
